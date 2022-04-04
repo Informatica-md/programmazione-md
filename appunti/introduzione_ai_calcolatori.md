@@ -38,7 +38,7 @@ Le funzioni del Sistema Operativo sono svariate: comunicare con l'utente, ovvero
 
 ## **Architettura di Von Neumann**
 
-![Untitled](Introduzio%2016ffc/Untitled.png)
+![Architettura di Von Neumann](./imgs/architettura_von_neumann.png)
 
 Ogni calcolatore utilizza l'architettura di _Von Neumann_ e le componenti fondamentali di un calcolatore sono:
 
@@ -61,7 +61,7 @@ L'elemento base della Ram è la cella di memoria, le cui caratteristiche sono:
 -   È possibile leggere lo stato della cella;
 -   È organizzata come una sequenza di locazioni di memoria.
 
-Ogni locazione è una sequenza di _n_ bit, in genere 8 o 16. Ogni locazione di memoria è individuata da un indirizzo univoco che ne specifica
+Ogni locazione è una sequenza di $n$ bit, in genere $8$ o $16$. Ogni locazione di memoria è individuata da un indirizzo univoco che ne specifica
 la posizione. L'indirizzo di memoria è un numero binario intero positivo.
 
 ---
@@ -109,7 +109,7 @@ I principali codici di caratteri sono:
 
 È un sistema di **codifica di caratteri,** in cui **ongin simbolo dell'alfabeto** è **codificato** in una **stringa di bit.**
 
-![Untitled](Introduzio%2016ffc/Untitled%201.png)
+![ASII code chart](./imgs/ASII_code_chart.png)
 
 ---
 
@@ -139,7 +139,7 @@ Il valore rappresentato da un simbolo **dipende dalla posizione** del simbolo ne
 Per il sistema di numerazione decimale la base $B$ è $10$ e gli $n$ simboli sono $0, 1, 2, \dotsc, 9$. Ad esempio: la stringa $2014$ rappresenta il numero
 
 $$
-⁍.
+2 \times 10^3 + 0 \times 10^2 + 1 \times 10^1 + 4 \times 10^0.
 $$
 
 ---
@@ -149,7 +149,7 @@ $$
 Per il sistema di numerazione binario **l**a base $B$ è $2$ e gli $n$ simboli sono $0$ e $1$. Ad esempio: la stringa binaria $11110$ rappresenta il numero
 
 $$
-⁍
+1 \times 2^4 + 1 \times 2^3 + 1 \times 2^2 + 1 \times 2^1 + 0 \times 2^0
 $$
 
 che rappreseta il numero $30$ nel sistema decimale.
@@ -230,7 +230,7 @@ Il linguaggio generato da una grammatica è l'insieme $L(G) = \{x \mid x \in T^*
 
 ## **Gerarchia di Livelli**
 
-![Untitled](Introduzio%2016ffc/Untitled%202.png)
+![Gerarchia di Livelli](./imgs/gerarchia_di_livelli.png)
 
 Un elaboratore è pensato come un sistema gerarchico in cui sono presenti diversi livelli di macchina virtuale interagenti fra loro.
 
@@ -242,7 +242,7 @@ La macchina reale, ovvero il livello hardware, è la macchina più efficiente ma
 
 ## **Traduzione di programmi**
 
-Per poter essere eseguito sulla macchina reale (HW), un programma scritto in linguaggio Ln deve essere tradotto in un programma (equivalente) scritto in un linguaggio Ln-1, a sua volta tradotto in un programma scritto in linguaggio Ln-2, e così via sino a ottenere una traduzione in linguaggio L0 (linguaggio macchina) che è l'unico comprensibile dalla macchina fisica.
+Per poter essere eseguito sulla macchina reale (HW), un programma scritto in linguaggio $L_n$ deve essere tradotto in un programma (equivalente) scritto in un linguaggio $L_{n-1}$, a sua volta tradotto in un programma scritto in linguaggio $L_{n-2}$, e così via sino a ottenere una traduzione in linguaggio $L_0$ (linguaggio macchina) che è l'unico comprensibile dalla macchina fisica.
 
 Ogni istruzione in linguaggio $L_n$ è sostituita (tradotta) da una sequenza d'istruzioni in linguaggio $L_{n - 1}$. Solo programmi scritti in linguaggio $L_0$ possono essere eseguiti direttamente dai circuiti elettronici di cui è composto l'HW, senza bisogno di traduzione.
 
