@@ -33,9 +33,9 @@ I vincoli che vengono imposti sull'<u>**INPUT**</u> servono per garantire il fun
 
 L'algoritmo di Euclide si basa sulle seguenti proprietà:
 
-1. **_SE $(a = b)$ ALLORA: $\mathord{\text{mcd}}(a,b) = a = b$;_**
-2. **_SE $(a > b)$ ALLORA: $\mathord{\text{mcd}}(a, b) = \mathord{\text{mcd}}(a - b, b)$;_**
-3. **_SE $(a < b)$ ALLORA: $\mathord{\text{mcd}}(a, b) = \mathord{\text{mcd}}(a, b - a)$._**
+1. **_SE_** $(a = b)$ **_ALLORA:_** $\mathord{\text{mcd}}(a,b) = a = b$;
+2. **_SE_** $(a > b)$ **_ALLORA:_** $\mathord{\text{mcd}}(a, b) = \mathord{\text{mcd}}(a - b, b)$;
+3. **_SE_** $(a < b)$ **_ALLORA:_** $\mathord{\text{mcd}}(a, b) = \mathord{\text{mcd}}(a, b - a)$.
 
 Prendiamo i numeri $a = 5, b = 3$ e troviamo il loro $\mathord{\text{mcd}}$. Notiamo che $5 \neq 3$, quindi la prima regola non si applica, ma la seconda sì dato che $5 > 3$. Dunque si ha:
 
