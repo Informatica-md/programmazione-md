@@ -2,6 +2,7 @@
 title: 📚 Esercizi del 9.10.21 – Problem solving
 author: Simone Fidanza
 type: exercise
+lecture date: 9/10/2021
 meta:
     tags:
         - Anno I

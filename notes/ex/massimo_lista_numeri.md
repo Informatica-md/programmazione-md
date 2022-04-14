@@ -2,6 +2,7 @@
 title: 📚 Massimo di una lista di numeri
 author: Simone Fidanza
 type: exercise
+lecture date: 13/10/2021
 meta:
     tags:
         - Anno I

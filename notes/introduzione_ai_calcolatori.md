@@ -2,13 +2,13 @@
 title: 🧮 Introduzione ai calcolatori
 author: Simone Fidanza
 type: notes
-meta:
-    tags:
-        - Anno I
-        - Semestre I
-        - INF/01
-    docente: Fabio Abbattista
-    contatto: fabio.abbattista@uniba.it, fabbattista@gmail.com
+lecture date: 6/10/2021
+tags:
+    - Anno I
+    - Semestre I
+    - INF/01
+docente: Fabio Abbattista
+contatto: fabio.abbattista@uniba.it, fabbattista@gmail.com
 ---
 
 # Introduzione ai calcolatori
