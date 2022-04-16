@@ -25,6 +25,6 @@ sono le seguenti:
 | `--key-word(:)`              | **_KEY_WORD(:)_**                                  |
 | `--input(:)` / `--output(:)` | <ins>**INPUT(:)**</ins> / <ins>**OUTPUT(:)**</ins> |
 | `.alg`                       | algoritmo                                          |
-| `{{ note }}`                 | `null`                                             |
+| `{[ note ]}`                 | `null`                                             |
 
 Nel file [`regex.txt`](regex.txt) sono presenti i regex per cercare le parole chiave e quelli per sostituirle.
